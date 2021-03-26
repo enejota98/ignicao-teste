@@ -1,0 +1,14 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.categories .category span{
+    margin-left: 1rem;
+    line-height: 32px;
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    font-weight: 300;
+}

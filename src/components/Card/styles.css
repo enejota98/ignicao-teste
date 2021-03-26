@@ -1,0 +1,128 @@
+.card {
+    height: 17vh;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 2rem;
+}
+.card p, .card h4{
+    color: #2C2C2C;
+}
+
+.card-container{
+    display: flex;
+    height: 100%;
+}
+
+.card-especific {
+    margin-top: 3rem;
+}
+
+.card-photo{
+    display: flex;
+    align-items: center;
+}
+
+.card-photo img {
+    width: 85%;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-left: 1rem;
+}
+
+.card-content h4 {
+    font: 400 1.6rem Montserrat;
+    margin-bottom: 0.5rem;
+}
+
+.card-content .card-cite{
+    font: 400 1rem Montserrat;
+    color: #7e7e7e;
+    margin-bottom: 2rem;
+}
+
+.card-content .card-cite cite{
+    font: 700 1rem Montserrat;
+}
+
+.card-content .card-description {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #2C2C2C;
+    width: 100%;
+}
+
+.vertical-line {
+    border-left: 1px solid #dadada;
+}
+
+.card-analyse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 25%;
+}
+
+.card-analyse .stars {
+    margin-left: auto;
+}
+
+.card-analyse .stars-container{
+    padding: 0 5px;
+    height: 30px;
+    background: #787878;
+    border-radius: 8px;
+}
+
+.card-analyse .stars-container p {
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.3rem;
+    color: #FFF;
+}
+
+.card-analyse .stars img {
+    margin: 0;
+    width: 1.2rem;
+}
+
+.card-analyse .btn-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card-analyse a {
+    margin-top: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 30px;
+    line-height: 30px;
+}
+
+.card-analyse a img {
+    margin: 0;
+    width: 1.5rem;
+}
+
+.card-analyse .btn-like {
+    background: #EDEDED;
+    color: #2C2C2C;
+}
+
+.card-analyse .btn-buy {
+    background: #686868;
+    color: #FFF;
+}
+

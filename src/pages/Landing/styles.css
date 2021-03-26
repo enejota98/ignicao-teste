@@ -1,0 +1,29 @@
+.titles {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.filter-position {
+    margin: 0 2rem;
+    margin-top: 2rem;
+}
+
+.card-position {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-position{
+    margin: 2rem 2rem 0;
+    margin-top: 2rem;
+}
+
+.content-position{
+    display: flex;
+}

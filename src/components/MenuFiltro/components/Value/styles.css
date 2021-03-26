@@ -1,0 +1,16 @@
+.values {
+    width: 80%;
+    margin: 30px;
+}
+
+.values .values-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.values .values-header span {
+    font-weight: 400;
+    color: #2c2c2c;
+    font-size: 2rem;
+    line-height: 24px;
+}
